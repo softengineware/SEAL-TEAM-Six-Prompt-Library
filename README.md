@@ -60,6 +60,7 @@ For any questions, discussions, or collaborations regarding these prompts, join 
 
 - **10-KAnalyzer.md**: Analyze 10-K reports.
 - **AWS Architect.md**: Generate AWS architecture diagrams and code.
+- **Code_Explainer.md**: Simple explanation of code input in plain English.
 - **Copilot.md**: Assist in code completion and suggestions.
 - **Cursor_IDE_Prompt.md**: For Cursor.sh "Rules for AI" section.
 - **Data_Conversion_Specialist.md**: Assist in data conversion tasks.
@@ -70,6 +71,7 @@ For any questions, discussions, or collaborations regarding these prompts, join 
 - **Python.md**: Python code generation and assistance.
 - **PythonBugFixer.md**: Identify and fix Python bugs.
 - **Scientific Data Visualizer.md**: Create scientific data visualizations.
+- **UnstructuredText_to_JSON.md**: Unstructured text to JSON table conversion.
 - **Wolfram.md**: Integrate with Wolfram for advanced computations.
 - **Commit Messages.md**: Generate commit messages for version control.
   
