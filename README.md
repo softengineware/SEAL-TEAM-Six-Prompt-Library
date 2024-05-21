@@ -58,15 +58,21 @@ For any questions, discussions, or collaborations regarding these prompts, join 
 
 ## Programming & Related
 
+- **10-KAnalyzer.md**: Analyze 10-K reports.
 - **AWS Architect.md**: Generate AWS architecture diagrams and code.
 - **Copilot.md**: Assist in code completion and suggestions.
+- **Cursor_IDE_Prompt.md**: For Cursor.sh "Rules for AI" section.
+- **Data_Conversion_Specialist.md**: Assist in data conversion tasks.
+- **ExcelFormulas.md**: Generate Excel formulas.
 - **HTML.md**: Generate HTML code.
+- **LaTeX_Specialist.md**: Assist with LaTeX typesetting.
+- **OnePageWebsite.md**: Create single-page websites.
 - **Python.md**: Python code generation and assistance.
+- **PythonBugFixer.md**: Identify and fix Python bugs.
 - **Scientific Data Visualizer.md**: Create scientific data visualizations.
 - **Wolfram.md**: Integrate with Wolfram for advanced computations.
 - **Commit Messages.md**: Generate commit messages for version control.
-- **cursor_IDE_prompt.md**: For Cursor.sh "Rules for AI" section.
-
+  
 ## Prompt Generation
 
 - **DALL-E.md**: Generate prompts for DALL-E.
