@@ -24,62 +24,65 @@ For any questions, discussions, or collaborations regarding these prompts, join 
 
 ## Text Manipulation
 
-- **Accuracy Confirmation.md**: Validate the accuracy of information.
-- **Action Items.md**: Generate actionable tasks from text.
-- **Book Summary.md**: Summarize books.
-- **Comprehensive Analysis.md**: Perform in-depth text analysis.
-- **Non-Fiction Analysis.md**: Analyze non-fictional content.
-- **NotesGPT.md**: Create notes from text.
-- **Poem Analysis.md**: Analyze poetic works.
-- **Preserve Technical Terminology.md**: Retain technical jargon while rewriting.
-- **Proofread.md**: Correct grammatical errors.
-- **Rewrite.md**: Rewrite text for clarity or style.
-- **Short Summary.md**: Provide concise summaries.
-- **Teach.md**: Generate educational content.
-- **Thought Stream Transcription.md**: Transcribe thought processes.
-- **Formatting.md**: Format text for different platforms.
-- **Hemingway.md**: Write in the style of Ernest Hemingway.
+- [Accuracy Confirmation](https://github.com/abilzerian/LLM-Prompt-Library/blob/main/Text%20Manipulation/Accuracy%20Confirmation.md): Validate the accuracy of information.
+- [Action Items](https://github.com/abilzerian/LLM-Prompt-Library/blob/main/Text%20Manipulation/Action%20Items.md): Generate actionable tasks from text.
+- [Book Summary](https://github.com/abilzerian/LLM-Prompt-Library/blob/main/Text%20Manipulation/Book%20Summary.md): Summarize books.
+- [Comprehensive Analysis](https://github.com/abilzerian/LLM-Prompt-Library/blob/main/Text%20Manipulation/Comprehensive%20Analysis.md): Perform in-depth text analysis.
+- [Non-Fiction Analysis](https://github.com/abilzerian/LLM-Prompt-Library/blob/main/Text%20Manipulation/Non-Fiction%20Analysis.md): Analyze non-fictional content.
+- [NotesGPT](https://github.com/abilzerian/LLM-Prompt-Library/blob/main/Text%20Manipulation/NotesGPT.md): Create notes from text.
+- [Poem Analysis](https://github.com/abilzerian/LLM-Prompt-Library/blob/main/Text%20Manipulation/Poem%20Analysis.md): Analyze poetic works.
+- [Preserve Technical Terminology](https://github.com/abilzerian/LLM-Prompt-Library/blob/main/Text%20Manipulation/Preserve%20Technical%20Terminology.md): Retain technical jargon while rewriting.
+- [Proofread](https://github.com/abilzerian/LLM-Prompt-Library/blob/main/Text%20Manipulation/Proofread.md): Correct grammatical errors.
+- [Rewrite](https://github.com/abilzerian/LLM-Prompt-Library/blob/main/Text%20Manipulation/Rewrite.md): Rewrite text for clarity or style.
+- [Short Summary](https://github.com/abilzerian/LLM-Prompt-Library/blob/main/Text%20Manipulation/Short%20Summary.md): Provide concise summaries.
+- [Teach](https://github.com/abilzerian/LLM-Prompt-Library/blob/main/Text%20Manipulation/Teach.md): Generate educational content.
+- [Thought Stream Transcription](https://github.com/abilzerian/LLM-Prompt-Library/blob/main/Text%20Manipulation/Thought%20Stream%20Transcription.md): Transcribe thought processes.
+- [Formatting](https://github.com/abilzerian/LLM-Prompt-Library/blob/main/Text%20Manipulation/formatting.md): Format text for different platforms.
+- [Hemingway](https://github.com/abilzerian/LLM-Prompt-Library/blob/main/Text%20Manipulation/hemingway): Write in the style of Ernest Hemingway.
 
 ## Medical Prompts
 
-- **Medical-Bot.md**: Assist with medical queries.
-- **Psychologist.md**: Act as a psychologist.
+- [Medical-Bot](https://github.com/abilzerian/GPT-4-Prompt-Medical-Bot): Assist with medical queries.
+- [Psychologist](https://github.com/abilzerian/LLM-Prompt-Library/blob/main/Medical%20Prompts/psychologist): Act as a psychologist.
 
 ## Miscellaneous
 
-- **ChatAGI.md**: Jailbreak
-- **Code Anything Now.md**: General-purpose code generation.
-- **Custom Instructions.md**: Custom ChatGPT instructions.
-- **MultiverseGPT.md**: Generate different scenarios.
-- **Antikythera.md**: Jailbreak
-- **Bitmap.md**: Generate bitmap images.
-- **Graphing.md**: Create graphs and charts.
-- **TextAdventure.md**: Generate text-based adventure games.
+- [ChatAGI](https://github.com/abilzerian/LLM-Prompt-Library/blob/main/Miscellaneous/ChatAGI.md): Jailbreak.
+- [Code Anything Now](https://github.com/abilzerian/LLM-Prompt-Library/blob/main/Miscellaneous/Code%20Anything%20Now.md): General-purpose code generation.
+- [Custom Instructions](https://github.com/abilzerian/LLM-Prompt-Library/blob/main/Miscellaneous/Custom%20Instructions.md): Custom ChatGPT instructions.
+- [MultiverseGPT](https://github.com/abilzerian/LLM-Prompt-Library/blob/main/Miscellaneous/MultiverseGPT.md): Generate different scenarios.
+- [Antikythera](https://github.com/abilzerian/LLM-Prompt-Library/blob/main/Miscellaneous/antikythera): Jailbreak.
+- [Bitmap](https://github.com/abilzerian/LLM-Prompt-Library/blob/main/Miscellaneous/bitmap): Generate bitmap images.
+- [Graphing](https://github.com/abilzerian/LLM-Prompt-Library/blob/main/Miscellaneous/graphing): Create graphs and charts.
+- [TextAdventure](https://github.com/abilzerian/LLM-Prompt-Library/blob/main/Miscellaneous/textadventure): Generate text-based adventure games.
 
 ## Programming & Related
 
-- **10-KAnalyzer.md**: Analyze 10-K reports.
-- **AWS Architect.md**: Generate AWS architecture diagrams and code.
-- **Code_Explainer.md**: Simple explanation of code input in plain English.
-- **Copilot.md**: Assist in code completion and suggestions.
-- **Cursor_IDE_Prompt.md**: For Cursor.sh "Rules for AI" section.
-- **Data_Conversion_Specialist.md**: Assist in data conversion tasks.
-- **ExcelFormulas.md**: Generate Excel formulas.
-- **HTML.md**: Generate HTML code.
-- **LaTeX_Specialist.md**: Assist with LaTeX typesetting.
-- **OnePageWebsite.md**: Create single-page websites.
-- **Python.md**: Python code generation and assistance.
-- **PythonBugFixer.md**: Identify and fix Python bugs.
-- **Scientific Data Visualizer.md**: Create scientific data visualizations.
-- **UnstructuredText_to_JSON.md**: Unstructured text to JSON table conversion.
-- **Wolfram.md**: Integrate with Wolfram for advanced computations.
-- **Commit Messages.md**: Generate commit messages for version control.
-  
+- [10-KAnalyzer](https://github.com/abilzerian/LLM-Prompt-Library/blob/main/Programming%20%26%20Related/10-KAnalyzer.md): Analyze 10-K reports.
+- [AWS Architect](https://github.com/abilzerian/LLM-Prompt-Library/blob/main/Programming%20%26%20Related/AWS%20Architect.md): Generate AWS architecture diagrams and code.
+- [Code_Explainer](https://github.com/abilzerian/LLM-Prompt-Library/blob/main/Programming%20%26%20Related/Code_Explainer.md): Simple explanation of code input in plain English.
+- [Copilot](https://github.com/abilzerian/LLM-Prompt-Library/blob/main/Programming%20%26%20Related/Copilot.md): Assist in code completion and suggestions.
+- [Cursor IDE Prompt](https://github.com/abilzerian/LLM-Prompt-Library/blob/main/Programming%20%26%20Related/cursor_IDE_prompt.md): For Cursor.sh "Rules for AI" section.
+- [Data Conversion Specialist](https://github.com/abilzerian/LLM-Prompt-Library/blob/main/Programming%20%26%20Related/Data_Conversion_Specialist.md): Assist in data conversion tasks.
+- [ExcelFormulas](https://github.com/abilzerian/LLM-Prompt-Library/blob/main/Programming%20%26%20Related/ExcelFormulas.md): Generate Excel formulas.
+- [HTML](https://github.com/abilzerian/LLM-Prompt-Library/blob/main/Programming%20%26%20Related/HTML.md): Generate HTML code.
+- [LaTeX Specialist](https://github.com/abilzerian/LLM-Prompt-Library/blob/main/Programming%20%26%20Related/LaTeX_specialist.md): Assist with LaTeX typesetting.
+- [OnePageWebsite](https://github.com/abilzerian/LLM-Prompt-Library/blob/main/Programming%20%26%20Related/OnePageWebsite.md): Create single-page websites.
+- [Python](https://github.com/abilzerian/LLM-Prompt-Library/blob/main/Programming%20%26%20Related/Python.md): Python code generation and assistance.
+- [PythonBugFixer](https://github.com/abilzerian/LLM-Prompt-Library/blob/main/Programming%20%26%20Related/PythonBugFixer.md): Identify and fix Python bugs.
+- [Scientific Data Visualizer](https://github.com/abilzerian/LLM-Prompt-Library/blob/main/Programming%20%26%20Related/Scientific%20Data%20Visualizer.md): Create scientific data visualizations.
+- [UnstructuredText_to_JSON](https://github.com/abilzerian/LLM-Prompt-Library/blob/main/Programming%20%26%20Related/UnstructuredText_to_JSON.md): Unstructured text to JSON table conversion.
+- [Wolfram](https://github.com/abilzerian/LLM-Prompt-Library/blob/main/Programming%20%26%20Related/Wolfram.md): Integrate with Wolfram for advanced computations.
+- [Commit Messages](https://github.com/abilzerian/LLM-Prompt-Library/blob/main/Programming%20%26%20Related/commit%20messages.md): Generate commit messages for version control.
+
 ## Prompt Generation
 
-- **DALL-E.md**: Generate prompts for DALL-E.
-- **Midjourney.md**: Generate intermediate prompts for long tasks.
-- **Prompt Creator.md**: Create custom prompts for various LLMs.
+- [DALL-E](https://github.com/abilzerian/LLM-Prompt-Library/blob/main/Prompt%20Generation/DALL-E.md): Generate prompts for DALL-E.
+- [Midjourney](https://github.com/abilzerian/LLM-Prompt-Library/blob/main/Prompt%20Generation/Midjourney.md): Generate intermediate prompts for long tasks.
+- [Prompt Creator](https://github.com/abilzerian/LLM-Prompt-Library/blob/main/Prompt%20Generation/Prompt%20Creator.md): Create custom prompts for various LLMs.
+- [PromptScript](https://github.com/abilzerian/LLM-Prompt-Library/blob/main/Prompt%20Generation/PromptScript.md): Generate scripts for various tasks.
+- [PromptScriptEngineer](https://github.com/abilzerian/LLM-Prompt-Library/blob/main/Prompt%20Generation/PromptScriptEngineer.md): Develop detailed script prompts.
+- [ScriptingTemplate](https://github.com/abilzerian/LLM-Prompt-Library/blob/main/Prompt%20Generation/ScriptingTemplate.md): Provide template scripts for various uses.
 
 ---
 
