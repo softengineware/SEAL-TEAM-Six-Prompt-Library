@@ -91,7 +91,17 @@ For more details, please refer to the individual `.md` files. Feel free to contr
 ---
 
 ### Additional Resources
-- **Website**: [bilzerian.tech](https://www.bilzerian.tech)
 - **Twitter/X**: [@alexbilz](https://x.com/alexbilz)
 
 Feel free to reach out for support.
+
+---
+<div align="center">
+
+<picture>
+  <source media="(prefers-color-scheme: dark)" srcset="https://api.star-history.com/svg?repos=abilzerian/LLM-Prompt-Library&type=Date&theme=dark" />
+  <source media="(prefers-color-scheme: light)" srcset="https://api.star-history.com/svg?repos=abilzerian/LLM-Prompt-Library&type=Date" />
+  <img alt="Star History Chart" src="https://api.star-history.com/svg?repos=abilzerian/LLM-Prompt-Library&type=Date" />
+</picture>
+
+</div>
