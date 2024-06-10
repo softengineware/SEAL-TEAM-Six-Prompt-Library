@@ -2,7 +2,7 @@
 
 ## Overview
 
-This repository contains a curated collection of prompts designed for various large language models (LLMs) like GPT-4, Claude, Llama2, Falcon, Bard, and others. These prompts cover a wide range of applications, from text manipulation to medical assistance and code generation.
+This repository contains a curated collection of prompts designed for various large language models (LLMs) like Siri, GPT-4o, Claude 3 Opus, Llama3, Gemini, and others. These prompts cover a wide range of applications, from text manipulation to medical assistance and code generation.
 
 ---
 
