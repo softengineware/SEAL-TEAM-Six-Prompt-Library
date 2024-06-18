@@ -42,7 +42,7 @@ For any questions, discussions, or collaborations regarding these prompts, join 
 
 ## Medical Prompts
 
-- [Medical-Bot](https://github.com/abilzerian/GPT-4-Prompt-Medical-Bot): Assist with medical queries.
+- [Medical-Bot](https://github.com/abilzerian/LLM-Personalized-Medicine/blob/main/prompt.md): Assist with medical queries.
 - [Psychologist](https://github.com/abilzerian/LLM-Prompt-Library/blob/main/Medical%20Prompts/psychologist): Act as a psychologist.
 
 ## Miscellaneous
