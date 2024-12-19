@@ -39,6 +39,7 @@ For any questions, discussions, or collaborations regarding these prompts, join 
 - [Thought Stream Transcription](https://github.com/abilzerian/LLM-Prompt-Library/blob/main/Text%20Manipulation/Thought%20Stream%20Transcription.md): Transcribe thought processes.
 - [Formatting](https://github.com/abilzerian/LLM-Prompt-Library/blob/main/Text%20Manipulation/formatting.md): Format text for different platforms.
 - [Hemingway](https://github.com/abilzerian/LLM-Prompt-Library/blob/main/Text%20Manipulation/hemingway): Write in the style of Ernest Hemingway.
+- [Venture Capitalist](https://github.com/abilzerian/LLM-Prompt-Library/blob/main/Text%20Manipulation/venturecapitalist.md): Replace VCs with LLMs.
 
 ## Medical Prompts
 
