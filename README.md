@@ -23,6 +23,7 @@ For any questions, discussions, or collaborations regarding these prompts, join 
 - [Medical](#medical)
 - [Programming & Related](#programming--related)
 - [Prompt Generation](#prompt-generation)
+- [Finance](#finance)
 - [Miscellaneous](#miscellaneous)
 
 ---
@@ -53,7 +54,6 @@ For any questions, discussions, or collaborations regarding these prompts, join 
 
 ### Style Emulation
 - [Hemingway](https://github.com/abilzerian/LLM-Prompt-Library/blob/main/prompts/writing_editing/style_emulation/hemingway): Write in the distinctive style of Ernest Hemingway.
-- [Venture Capitalist](https://github.com/abilzerian/LLM-Prompt-Library/blob/main/prompts/writing_editing/style_emulation/venturecapitalist.md): Emulate the tone and style of a venture capitalist.
 
 ---
 
@@ -66,7 +66,6 @@ For any questions, discussions, or collaborations regarding these prompts, join 
 
 ## Programming & Related
 
-- [10-KAnalyzer](https://github.com/abilzerian/LLM-Prompt-Library/blob/main/prompts/programming/10-KAnalyzer.md): Analyze 10-K reports with detailed breakdowns.
 - [AWS Architect](https://github.com/abilzerian/LLM-Prompt-Library/blob/main/prompts/programming/AWS%20Architect.md): Generate AWS architecture diagrams and related code.
 - [Code_Explainer](https://github.com/abilzerian/LLM-Prompt-Library/blob/main/prompts/programming/Code_Explainer.md): Provide plain English explanations for code snippets.
 - [Copilot](https://github.com/abilzerian/LLM-Prompt-Library/blob/main/prompts/programming/Copilot.md): Assist in code completion and suggestions.
@@ -93,6 +92,13 @@ For any questions, discussions, or collaborations regarding these prompts, join 
 - [PromptScript](https://github.com/abilzerian/LLM-Prompt-Library/blob/main/prompts/prompt_generation/PromptScript.md): Generate scripts to drive prompt-based workflows.
 - [PromptScriptEngineer](https://github.com/abilzerian/LLM-Prompt-Library/blob/main/prompts/prompt_generation/PromptScriptEngineer.md): Develop detailed script prompts for specific tasks.
 - [ScriptingTemplate](https://github.com/abilzerian/LLM-Prompt-Library/blob/main/prompts/prompt_generation/ScriptingTemplate.md): Provide template scripts for various use cases.
+
+---
+
+## Finance
+
+- [10-KAnalyzer](https://github.com/abilzerian/LLM-Prompt-Library/blob/main/prompts/finance/10-KAnalyzer.md): Analyze 10-K reports with detailed breakdowns.
+- [Venture Capitalist](https://github.com/abilzerian/LLM-Prompt-Library/blob/main/prompts/finance/venturecapitalist.md): Emulate the tone and style of a venture capitalist.
 
 ---
 
