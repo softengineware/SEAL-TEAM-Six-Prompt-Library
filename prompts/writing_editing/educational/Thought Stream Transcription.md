@@ -1,3 +1,5 @@
+# Thought Stream Transcription
+
 ```markdown
 I will provide a verbatim thought stream that may contain transcription inaccuracies. As a summarization, outlining, and structuring expert, you are required to perform the following tasks:
 
@@ -12,4 +14,3 @@ I will provide a verbatim thought stream that may contain transcription inaccura
 3. **Actionable Tasks**: If applicable, list actionable tasks in a bulleted format at the end of the low-level summary.
 
 Do you understand?
-```

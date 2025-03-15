@@ -6,6 +6,43 @@ This repository contains a curated collection of prompts designed for various la
 
 ---
 
+## Tools and Utilities
+
+This repository includes utility scripts to help maintain and enhance the prompt library:
+
+### Prompt Validator
+
+Validates the format and contents of prompt files to ensure they meet our standards.
+
+```bash
+# Basic usage
+python scripts/validate_prompts.py
+
+# Get detailed output
+python scripts/validate_prompts.py -v
+
+# Use strict validation
+python scripts/validate_prompts.py -s
+```
+
+### Prompt Mixer
+
+Create new prompts by mixing and matching elements from existing prompts.
+
+```bash
+# Create a random mix
+python scripts/prompt_mixer.py
+
+# Mix specific elements
+python scripts/prompt_mixer.py --config-from "file1.md" --instructions-from "file2.md"
+```
+
+All mixed prompts are saved to the `scripts/mixed_prompts/` directory by default.
+
+See the [scripts README](scripts/README.md) for more details on these tools.
+
+---
+
 ## Community Support 
 
 For any questions, discussions, or collaborations regarding these prompts, join our [Discord Group](https://discord.gg/chatgpt-prompt-engineering-1051259432199266374). The community has approximately 20,000 members including many machine learning and technical specialists who are more than willing to help.
