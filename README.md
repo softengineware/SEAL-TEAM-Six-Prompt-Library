@@ -19,6 +19,12 @@ The library includes several tools to help you work with prompts:
 
 For detailed usage information and examples, see the [scripts README](scripts/README.md).
 
+*To be added*:
+- **Multimodal Prompt Framework** - Create and optimize prompts that combine text, images, audio, and video inputs.
+- **Adaptive Learning System** - Dynamically adjust prompts based on user interaction patterns and performance metrics.
+- **RAG Integration Tools** - Enhance prompts with Retrieval-Augmented Generation capabilities for improved knowledge access.
+- **Meta-Prompting Engine** - Generate and refine prompts using LLMs for other LLMs or themselves.
+
 ---
 
 ## Community Support 
