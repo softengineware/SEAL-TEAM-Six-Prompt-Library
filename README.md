@@ -1,4 +1,4 @@
-# Advanced LLM Prompts Repository
+# LLM Prompt Library
 
 ## Overview
 
@@ -8,38 +8,16 @@ This repository contains a curated collection of prompts designed for various la
 
 ## Tools and Utilities
 
-This repository includes utility scripts to help maintain and enhance the prompt library:
+The library includes several tools to help you work with prompts:
 
-### Prompt Validator
+- **Prompt Validator** - Validates the format and contents of prompt files to ensure they meet our standards.
+- **Prompt Mixer** - Create new prompts by mixing and matching elements from existing prompts.
+- **Token Counter** - Analyze prompt files to count tokens and estimate API costs.
+- **Prompt Analyzer** - Evaluate the quality of prompts and get suggestions for improvements.
+- **Prompt Evolution** - Automatically optimize prompts through iterative self-improvement cycles.
+- **Financial Metacognition** - Analyze AI interpretations of financial prompts to detect biases and limitations.
 
-Validates the format and contents of prompt files to ensure they meet our standards.
-
-```bash
-# Basic usage
-python scripts/validate_prompts.py
-
-# Get detailed output
-python scripts/validate_prompts.py -v
-
-# Use strict validation
-python scripts/validate_prompts.py -s
-```
-
-### Prompt Mixer
-
-Create new prompts by mixing and matching elements from existing prompts.
-
-```bash
-# Create a random mix
-python scripts/prompt_mixer.py
-
-# Mix specific elements
-python scripts/prompt_mixer.py --config-from "file1.md" --instructions-from "file2.md"
-```
-
-All mixed prompts are saved to the `scripts/mixed_prompts/` directory by default.
-
-See the [scripts README](scripts/README.md) for more details on these tools.
+For detailed usage information and examples, see the [scripts README](scripts/README.md).
 
 ---
 
