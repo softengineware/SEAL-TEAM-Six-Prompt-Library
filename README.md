@@ -7,7 +7,7 @@
 [![Discord](https://img.shields.io/discord/1051259432199266374?style=for-the-badge&logo=discord)](https://discord.gg/chatgpt-prompt-engineering-1051259432199266374)
 
 <div align="center">
-  <img src="https://readme-typing-svg.herokuapp.com/?lines=Prompt+Engineering+Library;18,000%2B+AI+Practitioners;500%2B+Curated+Prompts;Multi-Model+Support&font=Fira%20Code&center=true&width=380&height=50&duration=4000&pause=1000">
+  <img src="https://readme-typing-svg.herokuapp.com/?lines=Prompt+Engineering+Library;18,000%2B+AI+Practitioners;Dozens+of+Curated+Prompts;Multi-Model+Support&font=Fira%20Code&center=true&width=380&height=50&duration=4000&pause=1000">
 </div>
 
 <p align="center">
