@@ -85,12 +85,6 @@ For any questions, discussions, or collaborations regarding these prompts, join 
   </table>
 </div>
 
-<div align="center">
-  
-  [![GitHub Profile](https://github-widgetbox.vercel.app/api/profile?username=abilzerian&data=repositories,stars,commits&theme=nautilus)](https://github.com/abilzerian)
-  
-</div>
-
 ---
 
 ## Table of Contents
