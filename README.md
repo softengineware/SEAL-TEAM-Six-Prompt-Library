@@ -1,55 +1,125 @@
 # LLM Prompt Library
+[![GitHub stars](https://img.shields.io/github/stars/abilzerian/LLM-Prompt-Library?style=for-the-badge)](https://github.com/abilzerian/LLM-Prompt-Library/stargazers)
+[![GitHub forks](https://img.shields.io/github/forks/abilzerian/LLM-Prompt-Library?style=for-the-badge)](https://github.com/abilzerian/LLM-Prompt-Library/network/members)
+[![GitHub issues](https://img.shields.io/github/issues/abilzerian/LLM-Prompt-Library?style=for-the-badge)](https://github.com/abilzerian/LLM-Prompt-Library/issues)
+[![GitHub license](https://img.shields.io/github/license/abilzerian/LLM-Prompt-Library?style=for-the-badge)](https://github.com/abilzerian/LLM-Prompt-Library/blob/main/LICENSE)
+[![Twitter Follow](https://img.shields.io/twitter/follow/alexbilz?style=for-the-badge)](https://twitter.com/alexbilz)
+[![Discord](https://img.shields.io/discord/1051259432199266374?style=for-the-badge&logo=discord)](https://discord.gg/chatgpt-prompt-engineering-1051259432199266374)
+
+<div align="center">
+  <img src="https://readme-typing-svg.herokuapp.com/?lines=Prompt+Engineering+Library;18,000%2B+AI+Practitioners;500%2B+Curated+Prompts;Multi-Model+Support&font=Fira%20Code&center=true&width=380&height=50&duration=4000&pause=1000">
+</div>
+
+<p align="center">
+  <a href="https://deepseek.ai"><img src="https://img.shields.io/badge/Deepseek-Compatible-blue" alt="Deepseek Compatible"></a>
+  <a href="https://openai.com/"><img src="https://img.shields.io/badge/GPT_o3-Optimized-green" alt="GPT Optimized"></a>
+  <a href="https://www.anthropic.com/claude"><img src="https://img.shields.io/badge/Claude-Ready-purple" alt="Claude 3 Opus Ready"></a>
+  <a href="https://ai.meta.com/llama/"><img src="https://img.shields.io/badge/Llama3-Enhanced-orange" alt="Llama3 Enhanced"></a>
+  <a href="https://gemini.google.com"><img src="https://img.shields.io/badge/Gemini-Supported-red" alt="Gemini Supported"></a>
+</p>
+
+<div align="center">
+  <a href="#writing--editing">Writing</a> •
+  <a href="#medical">Medical</a> •
+  <a href="#programming--related">Programming</a> •
+  <a href="#prompt-generation">Prompts</a> •
+  <a href="#finance">Finance</a> •
+  <a href="#miscellaneous">More</a>
+</div>
+
+<br>
 
 ## Overview
+
+<div align="right">
+  <img src="https://img.shields.io/badge/Maintained%3F-Yes-brightgreen" alt="Maintained">
+  <img src="https://img.shields.io/badge/Last%20Updated-2025-blue" alt="Last Updated">
+</div>
 
 This repository contains a curated collection of prompts designed for various large language models (LLMs) like Deepseek, GPT o3, Claude 3 Opus, Llama3, Gemini, and others. These prompts cover a wide range of applications, from writing & editing to medical assistance, programming, prompt generation, and more.
 
 ---
 
-## Tools and Utilities
+## Tools and Scripts
+
+<details>
+<summary>Click to expand tools and utilities</summary>
 
 The library includes several tools to help you work with prompts:
 
-- **Prompt Validator** - Validates the format and contents of prompt files to ensure they meet our standards.
-- **Prompt Mixer** - Create new prompts by mixing and matching elements from existing prompts.
-- **Token Counter** - Analyze prompt files to count tokens and estimate API costs.
-- **Prompt Analyzer** - Evaluate the quality of prompts and get suggestions for improvements.
-- **Prompt Evolution** - Automatically optimize prompts through iterative self-improvement cycles.
-- **Financial Metacognition** - Analyze AI interpretations of financial prompts to detect biases and limitations.
+- **🔍 Prompt Validator** - Validates the format and contents of prompt files to ensure they meet our standards.
+- **🔄 Prompt Mixer** - Create new prompts by mixing and matching elements from existing prompts.
+- **🔢 Token Counter** - Analyze prompt files to count tokens and estimate API costs.
+- **📊 Prompt Analyzer** - Evaluate the quality of prompts and get suggestions for improvements.
+- **🔄 Prompt Evolution** - Automatically optimize prompts through iterative self-improvement cycles.
+- **💰 Financial Metacognition** - Analyze AI interpretations of financial prompts to detect biases and limitations.
 
 For detailed usage information and examples, see the [scripts README](scripts/README.md).
 
-*To be added*:
-- **Multimodal Prompt Framework** - Create and optimize prompts that combine text, images, audio, and video inputs.
-- **Adaptive Learning System** - Dynamically adjust prompts based on user interaction patterns and performance metrics.
-- **RAG Integration Tools** - Enhance prompts with Retrieval-Augmented Generation capabilities for improved knowledge access.
-- **Meta-Prompting Engine** - Generate and refine prompts using LLMs for other LLMs or themselves.
+*Coming Soon*:
+- **🖼️ Multimodal Prompt Framework** - Create and optimize prompts that combine text, images, audio, and video inputs.
+- **🧠 Adaptive Learning System** - Dynamically adjust prompts based on user interaction patterns and performance metrics.
+- **📚 RAG Integration Tools** - Enhance prompts with Retrieval-Augmented Generation capabilities for improved knowledge access.
+- **🔮 Meta-Prompting Engine** - Generate and refine prompts using LLMs for other LLMs or themselves.
+
+</details>
 
 ---
 
 ## Community Support 
 
-For any questions, discussions, or collaborations regarding these prompts, join our [Discord Group](https://discord.gg/chatgpt-prompt-engineering-1051259432199266374). The community has approximately 20,000 members including many machine learning and technical specialists who are more than willing to help.
+<div align="center">
+  <a href="https://discord.gg/chatgpt-prompt-engineering-1051259432199266374">
+    <img src="https://img.shields.io/discord/1051259432199266374?style=for-the-badge&logo=discord&logoColor=white&label=Join%20Discord&color=5865F2" alt="Discord Server">
+  </a>
+</div>
+
+For any questions, discussions, or collaborations regarding these prompts, join our [Discord Group](https://discord.gg/chatgpt-prompt-engineering-1051259432199266374). The community has approximately 18,000 members including many machine learning and technical specialists who are more than willing to help.
+
+<div align="center">
+  <table>
+    <tr>
+      <td align="center"><b>18,000+</b><br>Community Members</td>
+      <td align="center"><b>100+</b><br>Prompt Templates</td>
+    </tr>
+  </table>
+</div>
+
+<div align="center">
+  
+  [![GitHub Profile](https://github-widgetbox.vercel.app/api/profile?username=abilzerian&data=repositories,stars,commits&theme=nautilus)](https://github.com/abilzerian)
+  
+</div>
 
 ---
 
 ## Table of Contents
 
-- [Writing & Editing](#writing--editing)
-  - [Verification](#verification)
-  - [Extraction & Summarization](#extraction--summarization)
-  - [Editing & Revision](#editing--revision)
-  - [Educational](#educational)
-  - [Style Emulation](#style-emulation)
-- [Medical](#medical)
-- [Programming & Related](#programming--related)
-- [Prompt Generation](#prompt-generation)
-- [Finance](#finance)
-- [Miscellaneous](#miscellaneous)
+<div align="center">
+  <kbd><a href="#writing--editing">Writing & Editing</a></kbd> •
+  <kbd><a href="#medical">Medical</a></kbd> •
+  <kbd><a href="#programming--related">Programming</a></kbd> •
+  <kbd><a href="#prompt-generation">Prompt Generation</a></kbd> •
+  <kbd><a href="#finance">Finance</a></kbd> •
+  <kbd><a href="#miscellaneous">Miscellaneous</a></kbd>
+</div>
 
 ---
 
+<div align="right">
+  <a href="#llm-prompt-library">
+    <img src="https://img.shields.io/badge/⬆️-Back_to_Top-orange" alt="Back to Top">
+  </a>
+</div>
+
 ## Writing & Editing
+
+<div align="center">
+  <img src="https://img.shields.io/badge/Total_Prompts-15+-blue" alt="Total Writing Prompts">
+</div>
+
+<details>
+<summary>Click to expand writing & editing prompts</summary>
 
 ### Verification
 - [Accuracy Confirmation](https://github.com/abilzerian/LLM-Prompt-Library/blob/main/prompts/writing_editing/verification/Accuracy%20Confirmation.md): Confirm that all factual details provided in the input are accurate, highlighting any inaccuracies using advanced markdown formatting.
@@ -76,16 +146,46 @@ For any questions, discussions, or collaborations regarding these prompts, join 
 ### Style Emulation
 - [Hemingway](https://github.com/abilzerian/LLM-Prompt-Library/blob/main/prompts/writing_editing/style_emulation/hemingway): Write in the distinctive style of Ernest Hemingway.
 
+</details>
+
 ---
 
+<div align="right">
+  <a href="#llm-prompt-library">
+    <img src="https://img.shields.io/badge/⬆️-Back_to_Top-orange" alt="Back to Top">
+  </a>
+</div>
+
 ## Medical
+
+<div align="center">
+  <img src="https://img.shields.io/badge/Total_Prompts-2+-blue" alt="Total Medical Prompts">
+</div>
+
+<details>
+<summary>Click to expand medical prompts</summary>
 
 - [Medical-Bot](https://github.com/abilzerian/LLM-Prompt-Library/blob/main/prompts/medical/Medical-Bot): Provide medical assistance and answer health-related queries.
 - [Psychologist](https://github.com/abilzerian/LLM-Prompt-Library/blob/main/prompts/medical/psychologist): Engage in simulated psychological sessions using techniques inspired by Charles R. Snyder's theory of hope.
 
+</details>
+
 ---
 
+<div align="right">
+  <a href="#llm-prompt-library">
+    <img src="https://img.shields.io/badge/⬆️-Back_to_Top-orange" alt="Back to Top">
+  </a>
+</div>
+
 ## Programming & Related
+
+<div align="center">
+  <img src="https://img.shields.io/badge/Total_Prompts-15+-blue" alt="Total Programming Prompts">
+</div>
+
+<details>
+<summary>Click to expand programming prompts</summary>
 
 - [AWS Architect](https://github.com/abilzerian/LLM-Prompt-Library/blob/main/prompts/programming/AWS%20Architect.md): Generate AWS architecture diagrams and related code.
 - [Code_Explainer](https://github.com/abilzerian/LLM-Prompt-Library/blob/main/prompts/programming/Code_Explainer.md): Provide plain English explanations for code snippets.
@@ -103,9 +203,24 @@ For any questions, discussions, or collaborations regarding these prompts, join 
 - [Wolfram](https://github.com/abilzerian/LLM-Prompt-Library/blob/main/prompts/programming/Wolfram.md): Integrate with Wolfram for advanced computational queries.
 - [Commit Messages](https://github.com/abilzerian/LLM-Prompt-Library/blob/main/prompts/programming/commit%20messages.md): Generate commit messages for version control systems.
 
+</details>
+
 ---
 
+<div align="right">
+  <a href="#llm-prompt-library">
+    <img src="https://img.shields.io/badge/⬆️-Back_to_Top-orange" alt="Back to Top">
+  </a>
+</div>
+
 ## Prompt Generation
+
+<div align="center">
+  <img src="https://img.shields.io/badge/Total_Prompts-6+-blue" alt="Total Prompt Generation Tools">
+</div>
+
+<details>
+<summary>Click to expand prompt generation tools</summary>
 
 - [DALL-E](https://github.com/abilzerian/LLM-Prompt-Library/blob/main/prompts/prompt_generation/DALL-E.md): Generate prompts for DALL-E image generation.
 - [Midjourney](https://github.com/abilzerian/LLM-Prompt-Library/blob/main/prompts/prompt_generation/Midjourney.md): Create intermediate prompts for longer tasks.
@@ -114,16 +229,46 @@ For any questions, discussions, or collaborations regarding these prompts, join 
 - [PromptScriptEngineer](https://github.com/abilzerian/LLM-Prompt-Library/blob/main/prompts/prompt_generation/PromptScriptEngineer.md): Develop detailed script prompts for specific tasks.
 - [ScriptingTemplate](https://github.com/abilzerian/LLM-Prompt-Library/blob/main/prompts/prompt_generation/ScriptingTemplate.md): Provide template scripts for various use cases.
 
+</details>
+
 ---
 
+<div align="right">
+  <a href="#llm-prompt-library">
+    <img src="https://img.shields.io/badge/⬆️-Back_to_Top-orange" alt="Back to Top">
+  </a>
+</div>
+
 ## Finance
+
+<div align="center">
+  <img src="https://img.shields.io/badge/Total_Prompts-2+-blue" alt="Total Finance Prompts">
+</div>
+
+<details>
+<summary>Click to expand finance prompts</summary>
 
 - [10-KAnalyzer](https://github.com/abilzerian/LLM-Prompt-Library/blob/main/prompts/finance/10-KAnalyzer.md): Analyze 10-K reports with detailed breakdowns.
 - [Venture Capitalist](https://github.com/abilzerian/LLM-Prompt-Library/blob/main/prompts/finance/venturecapitalist.md): Emulate the tone and style of a venture capitalist.
 
+</details>
+
 ---
 
+<div align="right">
+  <a href="#llm-prompt-library">
+    <img src="https://img.shields.io/badge/⬆️-Back_to_Top-orange" alt="Back to Top">
+  </a>
+</div>
+
 ## Miscellaneous
+
+<div align="center">
+  <img src="https://img.shields.io/badge/Total_Prompts-8+-blue" alt="Total Miscellaneous Prompts">
+</div>
+
+<details>
+<summary>Click to expand miscellaneous prompts</summary>
 
 - [ChatAGI](https://github.com/abilzerian/LLM-Prompt-Library/blob/main/prompts/miscellaneous/ChatAGI.md): Engage in jailbreak or creative tasks using ChatAGI.
 - [Code Anything Now](https://github.com/abilzerian/LLM-Prompt-Library/blob/main/prompts/miscellaneous/Code%20Anything%20Now.md): Generate general-purpose code on demand.
@@ -134,12 +279,29 @@ For any questions, discussions, or collaborations regarding these prompts, join 
 - [Graphing](https://github.com/abilzerian/LLM-Prompt-Library/blob/main/prompts/miscellaneous/graphing): Create graphs and charts from data.
 - [TextAdventure](https://github.com/abilzerian/LLM-Prompt-Library/blob/main/prompts/miscellaneous/textadventure): Generate interactive text-based adventure games.
 
+</details>
+
 ---
+
+## Stats & Activity
+
+<div align="center">
+  <a href="https://github.com/abilzerian/LLM-Prompt-Library/graphs/contributors">
+    <img src="https://contrib.rocks/image?repo=abilzerian/LLM-Prompt-Library" />
+  </a>
+</div>
+
+<div align="center">
+  <a href="https://github.com/abilzerian/LLM-Prompt-Library/pulse">
+    <img src="https://img.shields.io/github/commit-activity/m/abilzerian/LLM-Prompt-Library?style=flat-square" alt="Commit Activity">
+  </a>
+  <a href="https://github.com/abilzerian/LLM-Prompt-Library/graphs/code-frequency">
+    <img src="https://img.shields.io/github/last-commit/abilzerian/LLM-Prompt-Library?style=flat-square" alt="Last Commit">
+  </a>
+</div>
 
 ### Additional Resources
 - **Twitter/X**: [@alexbilz](https://x.com/alexbilz)
-
-Feel free to reach out for support.
 
 <div align="center">
 
@@ -149,4 +311,9 @@ Feel free to reach out for support.
   <img alt="Star History Chart" src="https://api.star-history.com/svg?repos=abilzerian/LLM-Prompt-Library&type=Date" />
 </picture>
 
+</div>
+
+<div align="right">
+<br>
+<sub>LLM Prompt Library 2025 | <a href="https://github.com/abilzerian">Alex Bilzerian</a></sub>
 </div>
