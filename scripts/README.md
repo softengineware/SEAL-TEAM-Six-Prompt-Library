@@ -1,12 +1,46 @@
 # LLM Prompt Library Scripts
 
-This directory contains utility scripts to help maintain and enhance the LLM Prompt Library.
+<div align="center">
+  <img src="https://readme-typing-svg.herokuapp.com/?lines=LLM+Prompt+Library+Scripts;Prompt+Utilities;Token+Counting;Prompt+Validation;Evolution+Engine&font=Fira%20Code&center=true&width=380&height=50&duration=4000&pause=1000">
+</div>
+
+<p align="center">
+  <a href="https://github.com/abilzerian/LLM-Prompt-Library"><img src="https://img.shields.io/badge/Main_Library-Link-blue?style=for-the-badge" alt="Main Library"></a>
+  <a href="https://discord.gg/chatgpt-prompt-engineering-1051259432199266374"><img src="https://img.shields.io/discord/1051259432199266374?style=for-the-badge&logo=discord&logoColor=white&label=Community&color=5865F2" alt="Discord Server"></a>
+</p>
+
+<div align="center">
+  <a href="#prompt-validator">Validator</a> •
+  <a href="#prompt-mixer">Mixer</a> •
+  <a href="#token-counter">Counter</a> •
+  <a href="#prompt-analyzer">Analyzer</a> •
+  <a href="#prompt-evolution">Evolution</a> •
+  <a href="#financial-metacognition">Metacognition</a>
+</div>
+
+<br>
+
+This directory contains powerful utility scripts to help maintain and enhance the LLM Prompt Library. These tools enable you to validate, optimize, mix, analyze, and evolve prompts for maximum effectiveness.
+
+---
 
 ## Available Scripts
 
-### 1. Prompt Validator (`validate_prompts.py`)
+
+### 1. Prompt Validator <a name="prompt-validator"></a> <img src="https://img.shields.io/badge/Status-Active-success" alt="Status">
+
+<details>
+<summary>Click to expand validator details</summary>
 
 This script validates the format and contents of prompt files to ensure they meet the repository's standards.
+
+#### Features
+
+- ✅ Title format validation
+- ✅ Markdown code block verification
+- ✅ Configuration option checks
+- ✅ Instruction clarity analysis
+- ✅ Content length verification
 
 #### Usage
 
@@ -24,20 +58,34 @@ python scripts/validate_prompts.py -v
 python scripts/validate_prompts.py -s
 ```
 
-The validator checks each prompt file for:
-- Proper title format (starts with # Title)
-- Presence of a markdown code block
-- Sufficient configuration options (`reset`, `no quotes`, etc.)
-- Clear instructions within the prompt
-- Adequate length and content
+The validator operates in two modes:
+- **Standard Mode**: Focuses on critical issues while providing warnings for minor issues
+- **Strict Mode** (`-s` flag): Applies more rigorous criteria for production-ready prompts
 
-By default, the validator operates in a lenient mode that focuses on critical issues while providing warnings for minor issues. The strict mode (`-s` flag) applies more rigorous criteria.
+If issues are found, the script provides a detailed report and exits with a non-zero status code, making it suitable for CI/CD pipelines.
 
-If issues are found, the script will list them and exit with a non-zero status code, making it suitable for CI/CD pipelines.
+</details>
 
-### 2. Prompt Mixer (`prompt_mixer.py`)
+<div align="right">
+  <a href="#llm-prompt-library-scripts">
+    <img src="https://img.shields.io/badge/⬆️-Back_to_Top-orange" alt="Back to Top">
+  </a>
+</div>
+
+### 2. Prompt Mixer <a name="prompt-mixer"></a> <img src="https://img.shields.io/badge/Status-Active-success" alt="Status">
+
+<details>
+<summary>Click to expand mixer details</summary>
 
 This script allows you to create new prompts by mixing and matching elements from existing prompts in the library.
+
+#### Features
+
+- 🔄 Component extraction from source prompts
+- 🔄 Selective component mixing
+- 🔄 Coherent prompt assembly
+- 🔄 Source attribution tracking
+- 🔄 Default element addition
 
 #### Usage
 
@@ -62,18 +110,30 @@ python scripts/prompt_mixer.py --output-file "my_special_mix.md"
 python scripts/prompt_mixer.py -v
 ```
 
-The mixer:
-1. Scans prompt files and extracts their components (title, configuration options, instructions, examples, output guidance)
-2. Allows you to select specific components from different source files
-3. Combines these components into a coherent new prompt
-4. Saves the result to the `scripts/mixed_prompts/` directory (or a location you specify)
-5. Includes source attribution in a comment at the end of the file
+The mixer scans prompt files, extracts components, allows selection from different sources, combines them coherently, and saves the result to the `scripts/mixed_prompts/` directory with source attribution.
 
-The mixer is designed to be robust and can handle a variety of prompt formats, even those not strictly adhering to the recommended structure. It will add default elements where necessary to ensure the mixed prompt is functional.
+</details>
 
-### 3. Token Counter (`token_counter.py`)
+<div align="right">
+  <a href="#llm-prompt-library-scripts">
+    <img src="https://img.shields.io/badge/⬆️-Back_to_Top-orange" alt="Back to Top">
+  </a>
+</div>
+
+### 3. Token Counter <a name="token-counter"></a> <img src="https://img.shields.io/badge/Status-Active-success" alt="Status">
+
+<details>
+<summary>Click to expand token counter details</summary>
 
 This script analyzes prompt files and counts tokens using various tokenization methods, helping you understand token usage and estimate API costs.
+
+#### Features
+
+- 🔢 Multi-model token counting
+- 🔢 Category-based token analysis
+- 🔢 High-token prompt identification
+- 🔢 API cost estimation
+- 🔢 Detailed per-file reporting
 
 #### Usage
 
@@ -103,18 +163,30 @@ python scripts/token_counter.py --export token_stats.json
 python scripts/token_counter.py -v
 ```
 
-The token counter provides:
-- Total token count across all prompt files
-- Token usage broken down by category
-- Identification of the most token-heavy prompts
-- Estimated API costs for different LLM models
-- Detailed per-file analysis
-
 For accurate tokenization with OpenAI models, the script uses the `tiktoken` library. If not available, it falls back to a simple word-based approximation.
 
-### 4. Prompt Analyzer (`prompt_analyzer.py`)
+</details>
+
+<div align="right">
+  <a href="#llm-prompt-library-scripts">
+    <img src="https://img.shields.io/badge/⬆️-Back_to_Top-orange" alt="Back to Top">
+  </a>
+</div>
+
+### 4. Prompt Analyzer <a name="prompt-analyzer"></a> <img src="https://img.shields.io/badge/Status-Active-success" alt="Status">
+
+<details>
+<summary>Click to expand analyzer details</summary>
 
 This script analyzes the quality, readability, and structure of prompts, providing actionable suggestions for improvements.
+
+#### Features
+
+- 📊 Readability assessment
+- 📊 Structure evaluation
+- 📊 Clarity analysis
+- 📊 Quality scoring
+- 📊 Improvement recommendations
 
 #### Usage
 
@@ -138,28 +210,30 @@ python scripts/prompt_analyzer.py --thorough
 python scripts/prompt_analyzer.py --export analysis_results.json
 ```
 
-The prompt analyzer evaluates each prompt on several dimensions:
-- **Readability**: How easy the prompt is to read and understand (sentence length, word complexity, etc.)
-- **Structure**: How well-structured the prompt is (title, configuration options, examples, etc.)
-- **Clarity**: How clear the instructions are (instruction patterns, complexity, etc.)
-- **Overall Quality**: Weighted combination of the above scores
+The analyzer evaluates prompts on readability, structure, clarity, and overall quality, providing detailed scores and specific recommendations for improvements.
 
-For each analyzed prompt, the script provides:
-- Detailed scores across various quality dimensions
-- Specific recommendations for improvements
-- Metadata about the prompt structure (examples count, code blocks, etc.)
-- Keyword analysis (when running in thorough mode with NLTK installed)
+</details>
 
-The analyzer also provides repository-wide statistics:
-- Quality distribution across all prompts
-- Comparison of quality across different prompt categories
-- Identification of the highest and lowest quality prompts
+<div align="right">
+  <a href="#llm-prompt-library-scripts">
+    <img src="https://img.shields.io/badge/⬆️-Back_to_Top-orange" alt="Back to Top">
+  </a>
+</div>
 
-For optimal results, install the NLTK library (`pip install nltk`), which enables more sophisticated text analysis.
+### 5. Prompt Evolution <a name="prompt-evolution"></a> <img src="https://img.shields.io/badge/Status-Active-success" alt="Status">
 
-### 5. Prompt Evolution (`prompt_evolution.py`)
+<details>
+<summary>Click to expand evolution details</summary>
 
 This script implements an autonomous prompt optimization system that iteratively refines prompts through self-evolution, critique, and feedback-driven improvement.
+
+#### Features
+
+- 🧬 Evolutionary algorithms
+- 🧬 Self-critique mechanisms
+- 🧬 Multiple mutation strategies
+- 🧬 Quality evaluation metrics
+- 🧬 Detailed evolution reporting
 
 #### Usage
 
@@ -183,34 +257,32 @@ python scripts/prompt_evolution.py --task "Create SQL queries" --model gpt-4 --a
 python scripts/prompt_evolution.py --task "Design marketing copy" --verbose
 ```
 
-The prompt evolution system employs multiple techniques to create increasingly effective prompts:
+The evolution system maintains a population of prompts that evolve across generations, generates constructive feedback, applies various transformations, and assesses prompt effectiveness using heuristics or LLM feedback.
 
-- **Evolutionary Algorithms**: Maintains a population of prompts that evolve across generations
-- **Self-Critique**: Generates constructive feedback on prompts to guide improvements
-- **Mutation Strategies**: Applies various transformations to create diverse prompt variations
-- **Quality Evaluation**: Assesses prompt effectiveness using heuristics or LLM feedback
+</details>
 
-For each evolution process, the script generates:
-- The best-performing prompt in markdown format
-- A detailed evolution report showing progress across generations
-- Complete evolution data in JSON for further analysis
+<div align="right">
+  <a href="#llm-prompt-library-scripts">
+    <img src="https://img.shields.io/badge/⬆️-Back_to_Top-orange" alt="Back to Top">
+  </a>
+</div>
 
-The system works in two modes:
-1. **Simulation Mode**: Works without API keys, using heuristic evaluation
-2. **LLM-Powered Mode**: Uses OpenAI or Anthropic APIs for more sophisticated evolution (requires API key)
+### 6. Financial Metacognition <a name="financial-metacognition"></a> <img src="https://img.shields.io/badge/Status-Beta-yellow" alt="Status">
 
-For best results with LLM-powered evolution, install the optional dependencies:
-```bash
-pip install openai>=1.0.0 anthropic>=0.5.0
-```
-
-### 6. Financial Metacognition
+<details>
+<summary>Click to expand financial metacognition details</summary>
 
 The Financial Metacognition module is a specialized tool for analyzing and evaluating AI-generated responses to financial prompts. This tool helps identify potential biases, reasoning limitations, and confidence issues in AI interpretations of financial topics.
 
-### Directory Structure
+#### Features
 
-The Financial Metacognition module is organized in its own dedicated directory:
+- 💹 Regional financial terminology analysis
+- 💹 Cognitive bias detection
+- 💹 Financial reasoning evaluation
+- 💹 Confidence assessment
+- 💹 Recommendation generation
+
+#### Directory Structure
 
 ```
 financial_metacognition/
@@ -226,58 +298,58 @@ financial_metacognition/
     └── financial_response.txt - Example response
 ```
 
-### Features
-
-- **Regional Analysis**: Support for US, EU, and Asian financial terminology and accounting standards
-- **Bias Detection**: Identifies potential cognitive biases in financial analysis
-- **Reasoning Evaluation**: Assesses limitations in financial reasoning
-- **Confidence Assessment**: Evaluates the appropriateness of confidence expressions
-- **Recommendation Generation**: Provides actionable suggestions for prompt improvement
-
-### Usage
-
-#### Basic Analysis
+#### Usage
 
 ```bash
+# Basic Analysis
 python financial_metacognition/financial_metacognition.py --prompt-file input/prompt.txt --response-file input/response.txt --output analysis.json
-```
 
-#### Region-Specific Analysis
-
-```bash
+# Region-Specific Analysis
 python financial_metacognition/financial_metacognition.py --prompt-file input/prompt.txt --response-file input/response.txt --region EU --output eu_analysis.json
-```
 
-#### Running the Test Script
-
-```bash
+# Running the Test Script
 python financial_metacognition/examples/test_financial_metacognition.py --region US --accounting-standard GAAP
 ```
 
-### Configuration
+#### Configuration
 
-The behavior of the financial metacognition module can be customized by modifying the JSON configuration files in the `config/` directory:
+The behavior of the financial metacognition module can be customized by modifying the JSON configuration files in the `config/` directory.
 
-- **financial_concepts.json**: Add or modify financial terminology for different regions
-- **bias_patterns.json**: Customize patterns for detecting cognitive biases
-- **limitation_patterns.json**: Adjust patterns for identifying reasoning limitations
-- **confidence_patterns.json**: Modify confidence assessment markers and thresholds
+#### Dependencies
 
-### Dependencies
-
-The Financial Metacognition module requires:
-- Python 3.6+
-- spaCy with the `en_core_web_lg` model
-- Standard libraries: json, re, argparse, os, datetime
-
-Install spaCy and the required model with:
 ```bash
 pip install spacy
 python -m spacy download en_core_web_lg
 ```
 
+</details>
+
+<div align="right">
+  <a href="#llm-prompt-library-scripts">
+    <img src="https://img.shields.io/badge/⬆️-Back_to_Top-orange" alt="Back to Top">
+  </a>
+</div>
+
 ## Directories
 
 ### mixed_prompts/
 
+<div align="center">
+  <img src="https://img.shields.io/badge/Storage-Active-success" alt="Status">
+</div>
+
 This directory contains the output of the prompt mixer tool. All mixed prompts are stored here by default.
+
+---
+
+<div align="center">
+  <p>
+    <img src="https://img.shields.io/badge/Coming_Soon-Multimodal_Framework-blue?style=for-the-badge" alt="Coming Soon">
+    <img src="https://img.shields.io/badge/Coming_Soon-Adaptive_Learning-green?style=for-the-badge" alt="Coming Soon">
+    <img src="https://img.shields.io/badge/Coming_Soon-RAG_Integration-purple?style=for-the-badge" alt="Coming Soon">
+  </p>
+</div>
+
+<div align="center">
+  <sub>Part of the <a href="https://github.com/abilzerian/LLM-Prompt-Library">LLM Prompt Library</a> | Created by <a href="https://github.com/abilzerian">Alex Bilzerian</a></sub>
+</div>
