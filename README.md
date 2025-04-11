@@ -153,7 +153,7 @@ For any questions, discussions, or collaborations regarding these prompts, join 
 ## Medical
 
 <div align="center">
-  <img src="https://img.shields.io/badge/Total_Prompts-2+-blue" alt="Total Medical Prompts">
+  <img src="https://img.shields.io/badge/Total_Prompts-3+-blue" alt="Total Medical Prompts">
 </div>
 
 <details>
@@ -161,6 +161,7 @@ For any questions, discussions, or collaborations regarding these prompts, join 
 
 - [Medical-Bot](https://github.com/abilzerian/LLM-Prompt-Library/blob/main/prompts/medical/Medical-Bot): Provide medical assistance and answer health-related queries.
 - [Psychologist](https://github.com/abilzerian/LLM-Prompt-Library/blob/main/prompts/medical/psychologist): Engage in simulated psychological sessions using techniques inspired by Charles R. Snyder's theory of hope.
+- [Cognitive Bias Assessment Tool](https://github.com/abilzerian/LLM-Prompt-Library/blob/main/prompts/medical/Cognitive%20Bias%20Assessment%20Tool.md): Analyze text for cognitive biases and manipulation techniques.
 
 </details>
 
