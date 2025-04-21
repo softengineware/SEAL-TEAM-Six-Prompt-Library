@@ -87,3 +87,8 @@ cython_debug/
 # macOS / editor cruft
 .DS_Store
 .idea/
+
+# Local artefacts
+venv/
+__pycache__/
+*.pyc
