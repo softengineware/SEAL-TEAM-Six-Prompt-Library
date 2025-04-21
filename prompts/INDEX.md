@@ -10,6 +10,7 @@
 | [miscellaneous/Code Anything Now.md](miscellaneous/Code%20Anything%20Now.md) | Code Anything Now |
 | [miscellaneous/Custom Instructions.md](miscellaneous/Custom%20Instructions.md) | Custom Instructions |
 | [miscellaneous/MultiverseGPT.md](miscellaneous/MultiverseGPT.md) | MultiverseGPT |
+| [miscellaneous/Temp.md](miscellaneous/Temp.md) | Temp Prompt |
 | [programming/AWS Architect.md](programming/AWS%20Architect.md) | AWS Architect |
 | [programming/Code_Explainer.md](programming/Code_Explainer.md) | Code Explainer (explain code in plain english) |
 | [programming/Copilot.md](programming/Copilot.md) | Copilot |

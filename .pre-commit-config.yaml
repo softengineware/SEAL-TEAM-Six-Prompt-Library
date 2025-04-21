@@ -6,4 +6,3 @@ repos:
         entry: python scripts/build_index.py
         language: system
         pass_filenames: false
-        stages: [pre-commit] # Ensure it runs on commit
