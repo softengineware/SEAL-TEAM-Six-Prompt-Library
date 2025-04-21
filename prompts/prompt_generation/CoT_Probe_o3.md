@@ -1,4 +1,4 @@
-# Step-by-step Instructional Designer (attempting to understand O3’s chain of thought)
+# CoT_Probe_o3
 
 ```markdown
 
