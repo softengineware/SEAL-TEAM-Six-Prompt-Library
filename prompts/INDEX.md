@@ -25,6 +25,7 @@
 | [programming/Wolfram.md](programming/Wolfram.md) | Wolfram |
 | [programming/commit messages.md](programming/commit%20messages.md) | Commit Messages |
 | [programming/cursor_IDE_prompt.md](programming/cursor_IDE_prompt.md) | Cursor IDE Prompt |
+| [prompt_generation/CoT_Probe_o3.md](prompt_generation/CoT_Probe_o3.md) | CoT_Probe_o3 |
 | [prompt_generation/DALL-E.md](prompt_generation/DALL-E.md) | DALL-E |
 | [prompt_generation/Midjourney.md](prompt_generation/Midjourney.md) | Midjourney |
 | [prompt_generation/Prompt Creator.md](prompt_generation/Prompt%20Creator.md) | Prompt Creator |
