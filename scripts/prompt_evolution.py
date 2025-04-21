@@ -32,6 +32,12 @@ try:
 except ImportError:
     ANTHROPIC_AVAILABLE = False
 
+try:
+    from prompt_analyzer import PromptAnalyzer
+    PROMPT_ANALYZER_AVAILABLE = True
+except ImportError:
+    PROMPT_ANALYZER_AVAILABLE = False
+
 class PromptEvolution:
     """Class for evolving and refining prompts through iterative improvement."""
     
@@ -119,6 +125,11 @@ class PromptEvolution:
                 self.llm_client = "openai_legacy"
         elif ANTHROPIC_AVAILABLE and model.startswith("claude-"):
             self.llm_client = anthropic.Anthropic(api_key=api_key)
+        
+        # Initialize PromptAnalyzer if available
+        self.prompt_analyzer = None
+        if PROMPT_ANALYZER_AVAILABLE:
+            self.prompt_analyzer = PromptAnalyzer()
     
     def generate_initial_population(self) -> List[Dict[str, Any]]:
         """
@@ -361,6 +372,8 @@ class PromptEvolution:
         """
         if self.llm_client:
             return self._evaluate_with_llm(prompt)
+        elif self.prompt_analyzer:
+            return self._evaluate_with_analyzer(prompt)
         else:
             return self._simulate_evaluation(prompt)
     
@@ -403,6 +416,18 @@ class PromptEvolution:
         
         # Ensure score is between 0 and 1
         return max(0.0, min(1.0, score))
+    
+    def _evaluate_with_analyzer(self, prompt: str) -> float:
+        """
+        Evaluate prompt quality using PromptAnalyzer.
+        
+        Args:
+            prompt: The prompt to evaluate
+            
+        Returns:
+            A score between 0 and 1
+        """
+        return self.prompt_analyzer.evaluate(prompt)
     
     def _evaluate_with_llm(self, prompt: str) -> float:
         """
