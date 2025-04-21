@@ -5,6 +5,7 @@ Run from repo root:  python scripts/build_index.py
 """
 
 import pathlib, re, textwrap
+from urllib.parse import quote_plus
 
 PROMPTS_DIR = pathlib.Path("prompts")
 INDEX_FILE  = PROMPTS_DIR / "INDEX.md"
@@ -19,7 +20,7 @@ def extract_title(path: pathlib.Path) -> str:
 def main() -> None:
     files = sorted(PROMPTS_DIR.rglob("*.md"))
     rows  = [
-        f"| [{f.relative_to(PROMPTS_DIR)}]({f.relative_to('.').as_posix()}) | {extract_title(f)} |"
+        f"| [{f.relative_to(PROMPTS_DIR)}]({quote_plus(f.relative_to(PROMPTS_DIR).as_posix())}) | {extract_title(f)} |"
         for f in files if f.name != "INDEX.md"
     ]
     header = textwrap.dedent("""\
