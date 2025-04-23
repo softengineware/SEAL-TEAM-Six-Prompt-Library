@@ -1,0 +1,207 @@
+<!DOCTYPE html>
+<html lang="en" data-theme="dark">
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+  <title>LLM Prompt Library</title>
+
+  <!-- JetBrains Mono + Tailwind CSS -->
+  <link rel="preconnect" href="https://fonts.googleapis.com">
+  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+  <link href="https://fonts.googleapis.com/css2?family=JetBrains+Mono:wght@400;600;700&display=swap" rel="stylesheet">
+  <script src="https://cdn.tailwindcss.com"></script>
+
+  <style>
+    :root[data-theme="dark"]  {--bg:#0d1117;--fg:#c9d1d9;--accent:#00ff88;--card:#161b22;--card-hover:#1f252d}
+    :root[data-theme="light"] {--bg:#ffffff;--fg:#1f2937;--accent:#14b8a6;--card:#f1f5f9;--card-hover:#e2e8f0}
+
+    body{font-family:'JetBrains Mono',monospace;background:var(--bg);color:var(--fg)}
+    .accent{color:var(--accent)}
+    .section-heading{border-left:4px solid var(--accent);padding-left:.5rem;font-weight:600;margin-bottom:1rem}
+    .prompt-link{background:var(--card);transition:background .15s ease,box-shadow .15s ease}
+    .prompt-link:hover{background:var(--card-hover);box-shadow:0 0 0 1px var(--accent)}
+    input#search{background:var(--card);color:var(--fg)}
+  </style>
+</head>
+<body class="selection:bg-emerald-500/40">
+  <!-- ========== HEADER ========== -->
+  <header class="border-b border-emerald-500/30">
+    <div class="max-w-6xl mx-auto px-5 py-10 flex flex-col gap-6">
+      <div class="flex items-center justify-between flex-wrap gap-4">
+        <h1 class="text-4xl font-bold tracking-tight">
+          <span class="accent">$</span> LLM-Prompt-Library<span class="accent">_</span>
+        </h1>
+
+        <!-- Theme toggle + social -->
+        <div class="flex items-center gap-4">
+          <button id="themeToggle" class="border border-emerald-500/50 px-3 py-1 rounded text-xs hover:bg-emerald-500/10">
+            <!-- label filled by JS -->
+          </button>
+
+          <a href="https://github.com/abilzerian/LLM-Prompt-Library" class="hover:text-emerald-400" aria-label="GitHub">
+            <svg class="w-5 h-5" fill="currentColor" viewBox="0 0 24 24"><path d="M12 .5C5.7.5.5 5.7.5 12c0 5.1 3.3 9.4 7.9 10.9.6.1.8-.2.8-.5v-1.9c-3.2.7-3.9-1.5-3.9-1.5-.5-1.3-1.2-1.7-1.2-1.7-1-.7.1-.7.1-.7 1.1.1 1.7 1.2 1.7 1.2 1 .1.8 1.9 3 2.5v-2.2c-2.6-.3-5.3-1.3-5.3-5.7 0-1.3.5-2.3 1.2-3.2-.1-.3-.5-1.6.1-3.2 0 0 1-.3 3.3 1.2.9-.2 1.8-.4 2.7-.4s1.8.1 2.7.4c2.3-1.5 3.3-1.2 3.3-1.2.6 1.6.2 2.9.1 3.2.7.9 1.2 1.9 1.2 3.2 0 4.4-2.7 5.4-5.3 5.7v2.2c0 .3.2.6.8.5 4.6-1.5 7.9-5.8 7.9-10.9C23.5 5.7 18.3.5 12 .5z"/></svg>
+          </a>
+          <a href="https://twitter.com/alexbilz" class="hover:text-emerald-400" aria-label="Twitter">
+            <svg class="w-5 h-5" fill="currentColor" viewBox="0 0 24 24"><path d="M23.4 4.6c-.8.4-1.6.6-2.5.8.9-.6 1.6-1.5 1.9-2.6-.9.6-1.9 1-3 1.2C18.9 2.8 17.6 2 16 2c-2.9 0-5 2.7-4.3 5.5-4-.2-7.6-2.1-9.9-5C1 4.5 1.6 7 3.5 8.3c-.7 0-1.3-.2-1.9-.5 0 2.2 1.6 4.1 3.8 4.5-.7.2-1.5.3-2.2.1.6 1.9 2.4 3.3 4.6 3.4-1.6 1.3-3.7 2-5.8 1.7C4.6 19 7.2 20 10 20c6 0 9.5-5.2 9.3-9.8.6-.4 1.2-1 1.6-1.6-.6.3-1.3.5-2 .6.7-.4 1.2-1 1.5-1.6z"/></svg>
+          </a>
+        </div>
+      </div>
+
+      <p class="text-sm text-gray-400">Zero-fluff repository of battle-tested prompts.</p>
+
+      <!-- Quick nav -->
+      <nav class="flex flex-wrap gap-4 text-xs text-gray-400 uppercase tracking-wider">
+        <a href="#writing-editing"   class="hover:text-emerald-400">writing</a>
+        <a href="#medical"           class="hover:text-emerald-400">medical</a>
+        <a href="#programming"       class="hover:text-emerald-400">programming</a>
+        <a href="#prompt-generation" class="hover:text-emerald-400">prompt-gen</a>
+        <a href="#finance"           class="hover:text-emerald-400">finance</a>
+        <a href="#miscellaneous"     class="hover:text-emerald-400">misc</a>
+      </nav>
+
+      <div class="max-w-md">
+        <input id="search" type="search" placeholder="grep prompts …"
+               class="w-full px-4 py-2 rounded border border-emerald-500/40 focus:border-emerald-400 focus:ring-0 text-sm" />
+      </div>
+    </div>
+  </header>
+
+  <!-- ========== MAIN ========== -->
+  <main class="max-w-6xl mx-auto px-5 py-16 space-y-20">
+    <section>
+      <a href="prompts/INDEX.md" class="inline-block px-4 py-2 text-emerald-400 border border-emerald-400 rounded hover:bg-emerald-400/10 text-xs tracking-wide">cat prompts/INDEX.md</a>
+    </section>
+
+    <!-- Prompt sections will be loaded here dynamically -->
+    <div id="prompt-list-container" class="space-y-12"></div>
+
+  </main>
+
+  <!-- ========== FOOTER ========== -->
+  <footer class="border-t py-6 text-center text-xs text-gray-500">
+    2025 LLM Prompt Library — MIT License
+  </footer>
+
+  <!-- ========== JS ========== -->
+  <script>
+    const html = document.documentElement;
+    const toggleBtn = document.getElementById('themeToggle');
+    const savedTheme = localStorage.getItem('theme') || 'dark'; // Default to dark
+    html.dataset.theme = savedTheme;
+
+    function updateThemeButtonText() {
+        toggleBtn.textContent = html.dataset.theme === 'dark' ? 'switch to light' : 'switch to dark';
+    }
+    updateThemeButtonText(); // Set initial text
+
+    toggleBtn.addEventListener('click', () => {
+      html.dataset.theme = html.dataset.theme === 'dark' ? 'light' : 'dark';
+      localStorage.setItem('theme', html.dataset.theme);
+      updateThemeButtonText(); // Update text on click
+    });
+
+    /* ---------- Dynamically Load Prompts from INDEX.md ---------- */
+    const promptListContainer = document.getElementById('prompt-list-container');
+
+    fetch('prompts/INDEX.md')
+      .then(response => {
+        if (!response.ok) {
+          throw new Error(`HTTP error! status: ${response.status}`);
+        }
+        return response.text();
+      })
+      .then(markdown => {
+        const lines = markdown.trim().split('\n');
+        let currentSection = null;
+        let currentUl = null;
+
+        lines.forEach(line => {
+          line = line.trim();
+          // Match ## Category (Count)
+          const headerMatch = line.match(/^##\s+(.+?)(?:\s+\(\d+\))?$/); // Made count optional
+          // Match * [Link Text](path)
+          const itemMatch = line.match(/^\*\s+\[(.+?)\]\((.+?)\)/);
+
+          if (headerMatch) {
+            const categoryName = headerMatch[1];
+            const categoryId = categoryName.toLowerCase().replace(/[^a-z0-9]+/g, '-').replace(/^-+|-+$/g, ''); // Generate simple ID
+
+            currentSection = document.createElement('section');
+            currentSection.id = categoryId;
+            // Removed pt-10, using space-y-12 on container now
+
+            const h2 = document.createElement('h2');
+            h2.className = 'section-heading';
+            h2.textContent = categoryName;
+            currentSection.appendChild(h2);
+
+            currentUl = document.createElement('ul');
+            currentUl.className = 'grid sm:grid-cols-2 lg:grid-cols-3 gap-3';
+            currentSection.appendChild(currentUl);
+
+            promptListContainer.appendChild(currentSection);
+
+          } else if (itemMatch && currentUl) {
+            const linkText = itemMatch[1];
+            const linkHref = itemMatch[2];
+
+            const li = document.createElement('li');
+            const a = document.createElement('a');
+            a.href = linkHref;
+            a.textContent = linkText;
+            a.className = 'prompt-link block p-4 rounded'; // Use existing classes
+            li.appendChild(a);
+            currentUl.appendChild(li);
+          }
+        });
+
+        // Initialize search AFTER dynamic content is loaded
+        initializeSearch();
+      })
+      .catch(error => {
+        console.error('Error fetching or parsing INDEX.md:', error);
+        promptListContainer.innerHTML = '<p class="text-red-500 px-4 py-2">Error loading prompts. Could not fetch or parse <code>prompts/INDEX.md</code>. Please check the file exists and the console for details.</p>';
+        // Still initialize search in case of partial loads or future static sections
+        initializeSearch();
+      });
+
+
+    /* ---------- Live search (needs to be initialized AFTER dynamic content) ---------- */
+    function initializeSearch() {
+        const searchInput = document.getElementById('search');
+        // Select only sections with IDs within the dynamic container
+        const sections = promptListContainer.querySelectorAll('section[id]');
+
+        if (!searchInput) {
+            console.warn("Search input element not found.");
+            return;
+        }
+
+        searchInput.addEventListener('input', e => {
+            const term = e.target.value.toLowerCase().trim();
+            sections.forEach(sec => {
+                const items = sec.querySelectorAll('li');
+                let sectionHasVisibleItems = false;
+                if (items.length > 0) {
+                    items.forEach(li => {
+                        const linkText = li.textContent?.toLowerCase() || '';
+                        const isMatch = linkText.includes(term);
+                        li.style.display = isMatch ? '' : 'none';
+                        if (isMatch) {
+                            sectionHasVisibleItems = true;
+                        }
+                    });
+                    // Show section if it has visible items OR if search is empty
+                    sec.style.display = sectionHasVisibleItems || term === '' ? '' : 'none';
+                } else {
+                    // Hide sections without list items if searching (unless search is empty)
+                    sec.style.display = term === '' ? '' : 'none';
+                }
+            });
+        });
+    }
+
+    // Note: initializeSearch() is called inside the .then() of the fetch
+  </script>
+</body>
+</html>

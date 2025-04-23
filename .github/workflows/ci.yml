@@ -16,6 +16,8 @@ jobs:
       with:
         python-version: '3.10'
     - name: Build prompt index
-      run: python scripts/build_index.py && git diff --exit-code
+      run: |
+        python scripts/build_index.py
+        git diff --exit-code prompts/INDEX.md
     - name: Test example (placeholder)
       run: echo "Add your tests here"

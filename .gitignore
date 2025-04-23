@@ -92,3 +92,13 @@ cython_debug/
 venv/
 __pycache__/
 *.pyc
+.ruby-version
+
+# Bundler
+vendor/bundle/
+
+# EventMachine
+vendor/bundle/bundler/gems/eventmachine-e7320417cf29
+
+# Jekyll
+_site
