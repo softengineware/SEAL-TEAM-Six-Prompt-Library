@@ -20,6 +20,7 @@
 | [programming/OnePageWebsite.md](programming/OnePageWebsite.md) | One-Page Website Coder |
 | [programming/Python.md](programming/Python.md) | Python |
 | [programming/PythonBugFixer.md](programming/PythonBugFixer.md) | Python Bug Fixer |
+| [programming/SEAL_TEAM_SIX_PRINCIPLES.md](programming/SEAL_TEAM_SIX_PRINCIPLES.md) | SEAL Team Six Development Principles |
 | [programming/Scientific Data Visualizer.md](programming/Scientific%20Data%20Visualizer.md) | Scientific Data Visualizer |
 | [programming/UnstructuredText_to_JSON.md](programming/UnstructuredText_to_JSON.md) | Unstructured Text to JSON Converter |
 | [programming/Wolfram.md](programming/Wolfram.md) | Wolfram |
