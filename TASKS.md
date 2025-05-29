@@ -43,6 +43,7 @@ Transform the LLM Prompt Library into an elite SEAL Team Six tactical prompt sys
 ### Immediate Objectives (MVP CRITICAL)
 - [ ] Transform priompt_style_cursor_IDE → ST6_priompt_style_cursor_IDE.md
 - [ ] Complete all Programming Division transformations (13 remaining)
+- [ ] Complete all Prompt Generation transformations (7 total)
 - [ ] Fix memory system connectivity (mem0 and Supabase MCP servers)
 - [ ] Update INDEX.md after all transformations
 - [ ] Update repository description on GitHub
@@ -63,7 +64,7 @@ Transform the LLM Prompt Library into an elite SEAL Team Six tactical prompt sys
 - [ ] Wolfram.md → ST6_Wolfram.md
 - [ ] commit messages.md → ST6_commit_messages.md
 
-### Writing/Editing Division (12 files)
+### Writing/Editing Division (15 files)
 - [ ] editing_revision/Preserve Technical Terminology.md → ST6_Preserve_Technical_Terminology.md
 - [ ] editing_revision/Proofread.md → ST6_Proofread.md
 - [ ] editing_revision/Rewrite.md → ST6_Rewrite.md
@@ -128,11 +129,11 @@ Transform the LLM Prompt Library into an elite SEAL Team Six tactical prompt sys
 - [ ] Develop rollback mechanisms
 
 ## 📊 Progress Metrics
-- Total Prompts Identified: 50
+- Total Prompts Identified: 52
 - Prompts Transformed: 11
-- Completion Percentage: 22%
-- MVP Requirements: Programming (13) + Key Others (10) = 23 files
-- MVP Progress: 11/34 (32%)
+- Completion Percentage: 21%
+- MVP Requirements: Programming (13) + Prompt Generation (7) = 20 files
+- MVP Progress: 11/20 (55%)
 - Estimated Time to MVP: 2-3 hours
 - Current Status: OPERATIONAL - Memory systems offline (using git backup)
 
